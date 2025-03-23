@@ -1,8 +1,7 @@
-package ro.cts.readere;
+package ro.cts.reader;
 
 import ro.cts.clase.Angajat;
 import ro.cts.clase.Aplicant;
-import ro.cts.clase.Student;
 
 import java.io.File;
 import java.io.FileNotFoundException;

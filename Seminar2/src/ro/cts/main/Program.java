@@ -1,8 +1,8 @@
 package ro.cts.main;
 
 import ro.cts.clase.Aplicant;
-import ro.cts.readere.AngajatiReader;
-import ro.cts.readere.AplicantReader;
+import ro.cts.reader.AngajatiReader;
+import ro.cts.reader.AplicantReader;
 
 import java.io.FileNotFoundException;
 import java.util.List;
