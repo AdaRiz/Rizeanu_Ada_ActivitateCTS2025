@@ -1,7 +1,41 @@
 ### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Exclude output folders
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+target/
+build/
+
+# Exclude Maven/Gradle wrapper logs
+.mvn/wrapper/maven-wrapper.jar
+.gradle/
+
+# Java classes
+*.class
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Exclude IntelliJ specific files
+# Avoid tracking workspace-specific settings
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+
+# Node (if using frontend in project)
+node_modules/
+
+# If using temporary files or test coverage
+coverage/
+*.tmp
+
 
 ### Eclipse ###
 .apt_generated
@@ -25,5 +59,3 @@ bin/
 ### VS Code ###
 .vscode/
 
-### Mac OS ###
-.DS_Store

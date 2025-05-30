@@ -38,7 +38,7 @@ public class AutoritateReglemntareMasiniLazy {
 
     public static AutoritateReglemntareMasiniLazy getInstance(String nume, String webSite) {
         if(instance == null){
-            instance = new AutoritateReglemntareMasiniLazy("Auto_Lazy", "www.autoritate_Lazy.ro", 0);
+            instance = new AutoritateReglemntareMasiniLazy("Auto_Lazy", "www.autoritate_Lazy.clase", 0);
         }
         return instance;
     }

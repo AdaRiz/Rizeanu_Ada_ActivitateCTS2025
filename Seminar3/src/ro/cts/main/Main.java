@@ -10,7 +10,7 @@ public class Main {
 
             AutoritateReglementareMasiniEager autoritate2
                     = AutoritateReglementareMasiniEager.getInstance();
-            autoritate2.setWebSite("www.siteNou_autoritate2.ro");
+            autoritate2.setWebSite("www.siteNou_autoritate2.clase");
             System.out.println(autoritate2);
 
             System.out.println(autoritate);
