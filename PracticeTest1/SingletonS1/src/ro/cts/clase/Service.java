@@ -8,7 +8,7 @@ public class Service implements IService{
     private int nrAngajati;
     private AMasina masina;
 
-    public static Service serviceThreadSafe = null;
+    public static volatile Service serviceThreadSafe = null;
 
     private Service(String nume, String locatie, int nrAngajati, AMasina masina) {
         this.nume = nume;
