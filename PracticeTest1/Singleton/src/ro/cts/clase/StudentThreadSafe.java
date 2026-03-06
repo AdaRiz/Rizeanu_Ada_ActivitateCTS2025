@@ -7,7 +7,7 @@ public class StudentThreadSafe {
 
     private static volatile StudentThreadSafe instantaStudent = null;
 
-    public StudentThreadSafe(int cod, String nume, int grupa) {
+    private StudentThreadSafe(int cod, String nume, int grupa) {
         this.cod = cod;
         this.nume = nume;
         this.grupa = grupa;
